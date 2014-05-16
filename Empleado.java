@@ -1,4 +1,5 @@
 package empresa;
+
 public class Empleado
 {
     private String nombre; 
@@ -8,10 +9,11 @@ public class Empleado
     private int salario;
     private Herramienta herramientas;
 
-    public Empleado()
+    public Empleado() 
     {
     
     }
+
     public void setNombre(String _nombre)
     {
         this.nombre = _nombre;
@@ -26,26 +28,32 @@ public class Empleado
     {
         return nacimiento;
     }
+
     public void setNacimiento(String _nacimiento)
     {
         this.nacimiento = _nacimiento;
     }
+
     public String getApellido()
     {
         return apellido;
     }
+
     public void setApellido(String _apellido) 
     {
         this.apellido = _apellido;
     }
-    public String setProfecion()
+
+    public String getProfecion()
     {
         return profecion;
     }
+
     public void setProfecion(String _profecion)     
     {
         this.profecion = _profecion;
     }
+
     public int getSalario()
     {
         return salario;

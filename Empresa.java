@@ -8,8 +8,6 @@ public class Empresa{
 
     public Empresa()
     {
-    
-
     }
 
     public String getNombre()
@@ -31,6 +29,12 @@ public class Empresa{
     {
         this.fechaFundacion = _fechaFundacion;
         
+    }
+
+    public enum Estado{
+        USO(0), MANTENIMIENTO(1), BAJA(2);
+        Estado(){
+        }
     }
 }
 

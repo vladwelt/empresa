@@ -31,23 +31,23 @@ public class Herramienta
    {
       return estado;
    }
-   public String setNombre( String _nombre)
+   public void setNombre(String _nombre)
    {
       this.nombre= _nombre;
    }
-   public Estado setEstado(Estado _estado)
+   public void setEstado(Estado _estado)
    {
-      this estado = _estado;
+      this.estado = _estado;
    }
-   public String setMarca (String _marca)
+   public void setMarca (String _marca)
    {
       this.marca= _marca;
    }
-   public int setCodigo(int _codigo)
+   public void setCodigo(int _codigo)
    {
       this.codigo = _codigo;
    }
-   public String setModelo(String _modeo)
+   public void setModelo(String _modelo)
    {
       this.modelo = _modelo;
    }

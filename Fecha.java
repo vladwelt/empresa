@@ -1,4 +1,4 @@
-package empresa
+package empresa;
 
 public class Fecha
 {
@@ -10,12 +10,19 @@ public class Fecha
     {
     }
 
+    public Fecha(int _dia, Mes _mes, int _anio)
+    {
+        dia = _dia;
+        mes = _mes;
+        anio = _anio;
+    }
+
     public void setDia(int _dia)
     {
         this.dia = _dia;
     }
 
-    public void setmes(String _mes)
+    public void setmes(Mes _mes)
     {
         this.mes = _mes;
     }
@@ -40,3 +47,5 @@ public class Fecha
         return anio;
     }
 }
+
+

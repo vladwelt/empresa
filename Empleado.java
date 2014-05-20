@@ -29,7 +29,7 @@ public class Empleado
         return nacimiento;
     }
 
-    public void setNacimiento(String _nacimiento)
+    public void setNacimiento(Fecha _nacimiento)
     {
         this.nacimiento = _nacimiento;
     }
